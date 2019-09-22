@@ -1,5 +1,7 @@
 module Lightning
     class Base < Sinatra::Base
+        self.abstract_class = true
+
         register Sinatra::Namespace
         helpers Sinatra::RequiredParams
 
