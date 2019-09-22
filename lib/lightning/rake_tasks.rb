@@ -52,13 +52,13 @@ namespace :g do
         File.open(path, 'w') do |file|
             file.write <<~EOF
                 class #{migration_class} < Lightning::Migration
-                  def change
-                  end
+                    def change
+                    end
 
-                  # def up
-                  # end
-                  # def down
-                  # end
+                    # def up
+                    # end
+                    # def down
+                    # end
                 end
             EOF
         end

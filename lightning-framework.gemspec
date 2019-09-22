@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
     spec.author   = 'crdx'
     spec.license  = 'MIT'
 
-    spec.files    = Dir['{lib}/**/*']
+    spec.files = Dir['{lib}/**/*']
 
     spec.add_runtime_dependency "sinatra",         "~> 2.0"
     spec.add_runtime_dependency "sinatra-contrib", "~> 2.0"
