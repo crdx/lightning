@@ -10,17 +10,15 @@ end
 require 'sinatra/base'
 require 'sinatra/json'
 require 'sinatra/namespace'
-require 'sinatra/required_params'
 
 require 'rack'
-require 'rack/protection'
 require 'active_record'
 require 'erubis'
 require 'dotenv'
 require 'logger'
 require 'json'
 
-banner = "Environment #{rack_env.bold}"
+banner = "[env=#{rack_env.bold}]"
 
 case rack_env
     when 'production'  then puts banner.red
@@ -33,10 +31,9 @@ env_file = rack_env + '.env'
 unless File.exist?(env_file)
     puts 'File not found: ./%s'.red % env_file
     exit 1
-else
-    Dotenv.load env_file
-    puts 'Loaded %s'.green % env_file
 end
+
+Dotenv.load env_file
 
 require_relative 'framework/base'
 require_relative 'framework/migration'
