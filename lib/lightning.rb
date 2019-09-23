@@ -12,10 +12,6 @@ require 'sinatra/json'
 require 'sinatra/namespace'
 require 'sinatra/required_params'
 
-if rack_env == 'development'
-    require 'sinatra/reloader'
-end
-
 require 'rack'
 require 'rack/protection'
 require 'active_record'

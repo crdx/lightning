@@ -3,10 +3,6 @@ module Lightning
         register Sinatra::Namespace
         helpers Sinatra::RequiredParams
 
-        configure :development do
-            register Sinatra::Reloader
-        end
-
         # Use <%== x %> to output without escaping.
         set :erb, :escape_html => true
 
