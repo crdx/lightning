@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lightning-framework (1.0.4)
+    lightning-framework (1.0.5)
       activerecord (~> 6.0)
       colorize (~> 0.8.1)
       dotenv (~> 2.7)
@@ -37,7 +37,7 @@ GEM
     erubis (2.7.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    minitest (5.11.3)
+    minitest (5.12.0)
     multi_json (1.13.1)
     mustermann (1.0.3)
     mysql2 (0.5.2)
