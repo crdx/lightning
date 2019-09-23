@@ -26,7 +26,7 @@ case rack_env
     when 'test'        then puts banner.cyan
 end
 
-env_file = rack_env + '.env'
+env_file = 'env/' + rack_env
 
 unless File.exist?(env_file)
     puts 'File not found: ./%s'.red % env_file

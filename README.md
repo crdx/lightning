@@ -100,13 +100,13 @@ Include `lightning-framework/spec_helper` in `spec_helper` to bring the helpers 
 
 `ENV['RACK_ENV']` is used to determine the current environment. If it is not valid, the framework will error immediately.
 
-Environment variables must be stored in the file `<type>.env` where `<type>` is one of the following:
+Environment variables must be stored in a file in the `env/` folder, where the filename is one of the following.
 
 - `development`
 - `production`
 - `test`
 
-For example, `development.env`.
+For example, `env/development`.
 
 ## Reference implementation
 
