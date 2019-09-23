@@ -49,5 +49,5 @@ require_relative 'framework/test'
 require_relative 'framework/db'
 
 if ENV['DEBUG']
-    Database.enable_logging
+    Lightning::Database.enable_logging
 end
