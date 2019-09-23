@@ -19,8 +19,11 @@ module Lightning
             set :sessions, same_site: :lax, key: 'session'
         end
 
-        def self.enable_csp(**csp)
-            use Rack::Protection::ContentSecurityPolicy, **csp
+        def self.enable_csp(str)
+            before do
+                str = str.lines.map(&:strip).join(' ')
+                headers 'Content-Security-Policy' => str
+            end
         end
 
         def self.enable_db
