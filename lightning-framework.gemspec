@@ -16,7 +16,6 @@ Gem::Specification.new do |spec|
     spec.add_runtime_dependency "activerecord",    "~> 6.0"
     spec.add_runtime_dependency "mysql2",          "~> 0.5.2"
 
-    spec.add_runtime_dependency "rack-protection", "~> 2.0"
     spec.add_runtime_dependency "rack-test",       "~> 1.1"
     spec.add_runtime_dependency "rack",            "~> 2.0"
     spec.add_runtime_dependency "rake",            "~> 12.3"

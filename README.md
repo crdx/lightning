@@ -31,7 +31,6 @@ class Web < Lightning::Base
     set_app_file __FILE__
 
     enable_session
-    enable_csp
     enable_db
 
     get '/' do

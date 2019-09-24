@@ -1,14 +1,13 @@
 PATH
   remote: .
   specs:
-    lightning-framework (1.0.6)
+    lightning-framework (1.0.7)
       activerecord (~> 6.0)
       colorize (~> 0.8.1)
       dotenv (~> 2.7)
       erubis (~> 2.7)
       mysql2 (~> 0.5.2)
       rack (~> 2.0)
-      rack-protection (~> 2.0)
       rack-test (~> 1.1)
       rake (~> 12.3)
       rspec (~> 3.8)
