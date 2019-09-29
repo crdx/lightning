@@ -22,7 +22,7 @@ banner = "[env=#{rack_env.bold}]"
 
 case rack_env
     when 'production'  then puts banner.red
-    when 'development' then puts banner.yellow
+    when 'development' then puts banner.yellow if ENV['LIGHTNING_HIDE_BANNER'].nil?
     when 'test'        then puts banner.cyan
 end
 
