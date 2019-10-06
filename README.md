@@ -67,6 +67,34 @@ Any format supported by Sinatra is supported here.
 
 A view called `layout.erb` will be automatically used as a layout. Call `<%== yield %>` inside the layout.
 
+### Middleware
+
+Use Sinatra-based middleware by implementing `Lightning::Middleware`.
+
+This is also an instance of `Sinatra::Base` but isolated from the others.
+
+For example, given the following simple implementation of authentication middleware.
+
+```rb
+module Middleware
+    class Auth < Lightning::Middleware
+        before do
+            halt 400 if params[:password] != 'secret'
+        end
+    end
+end
+```
+
+This can be used with the `use` statement in the main implementation of `Lightning::Base`.
+
+```rb
+class Web < Lightning::Base
+    # ...
+    use Middleware::Auth
+    # ...
+end
+```
+
 ### Database
 
 Run the following command to see the list of tasks.

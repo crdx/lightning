@@ -36,6 +36,7 @@ end
 Dotenv.load env_file
 
 require_relative 'framework/base'
+require_relative 'framework/middleware'
 require_relative 'framework/migration'
 require_relative 'framework/model'
 require_relative 'framework/test'
