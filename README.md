@@ -1,6 +1,6 @@
 # Lightning Web Framework
 
-A web microframework written in ruby.
+A web framework written in ruby.
 
 ## Installation
 
