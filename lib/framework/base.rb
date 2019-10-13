@@ -21,11 +21,12 @@ module Lightning
             set :app_file, file
         end
 
-        def self.enable_session
+        def self.enable_session(**overrides)
             set :sessions,
                 same_site: :lax,
                 key: 'session',
                 expire_after: 31536000, # 1 year
+                **overrides
         end
 
         def self.enable_csp(str)
