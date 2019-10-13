@@ -22,7 +22,10 @@ module Lightning
         end
 
         def self.enable_session
-            set :sessions, same_site: :lax, key: 'session'
+            set :sessions,
+                same_site: :lax,
+                key: 'session',
+                expire_after: 31536000, # 1 year
         end
 
         def self.enable_csp(str)
