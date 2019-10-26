@@ -30,6 +30,7 @@ require 'lightning-framework'
 class Web < Lightning::Base
     set_app_file __FILE__
 
+    enable_compression
     enable_session
     enable_db
 

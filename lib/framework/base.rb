@@ -29,6 +29,10 @@ module Lightning
                 **overrides
         end
 
+        def self.enable_compression
+            use Rack::Deflater
+        end
+
         def self.enable_csp(str)
             before do
                 headers 'Content-Security-Policy' => str.lines.map(&:strip).join(' ')
