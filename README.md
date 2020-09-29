@@ -1,6 +1,6 @@
 # Lightning Web Framework
 
-A web framework written in ruby.
+A web framework written in Ruby.
 
 ## Installation
 
@@ -135,10 +135,6 @@ Environment variables must be stored in a file in the `env/` folder, where the f
 - `test`
 
 For example, `env/development`.
-
-## Reference implementation
-
-See [crdx/beacon](https://github.com/crdx/beacon) for a reference implementation.
 
 ## Security
 
