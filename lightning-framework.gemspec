@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 
     spec.add_runtime_dependency "rack-test",       "~> 1.1"
     spec.add_runtime_dependency "rack",            "~> 2.0"
-    spec.add_runtime_dependency "rake",            "~> 12.3"
+    spec.add_runtime_dependency "rake",            "~> 13.0"
     spec.add_runtime_dependency "rspec",           "~> 3.8"
 
     spec.add_runtime_dependency "colorize",        "~> 0.8.1"
