@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lightning-framework (1.0.14)
+    lightning-framework (1.0.15)
       activerecord (~> 6.0)
       colorize (~> 0.8.1)
       dotenv (~> 2.7)
@@ -79,9 +79,10 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-linux
 
 DEPENDENCIES
   lightning-framework!
 
 BUNDLED WITH
-   2.1.4
+   2.2.0
