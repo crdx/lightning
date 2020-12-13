@@ -12,6 +12,12 @@ module Lightning
             set :session_secret, 'session_secret'
         end
 
+        # By default the output is a reflection of the HTTP method and
+        # query. Output nothing instead.
+        not_found do
+            ""
+        end
+
         # Disable the set of automatically-imported Rack::Protection features.
         # We are minimalist, so let the user include the ones they want.
         # Certain ones pollute the session with tokens you may not even be using.
