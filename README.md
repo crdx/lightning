@@ -140,9 +140,7 @@ For example, `env/development`.
 
 ### CSRF
 
-SameSite cookies are enabled by default, which mitigates CSRF highly effectively.
-
-As such, there is no need to worry about CSRF tokens anymore. Yay!
+SameSite cookies are enabled by default, which _somewhat_ mitigates CSRF. For proper protection a standard CSRF token implementation is still recommended.
 
 ### CSP
 
