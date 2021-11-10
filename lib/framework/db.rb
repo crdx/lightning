@@ -25,7 +25,8 @@ module Lightning
                 adapter:  'mysql2',
                 host:     self.database_host,
                 username: self.database_user,
-                password: self.database_pass
+                password: self.database_pass,
+                encoding: self.default_charset
             }
         end
 
