@@ -22,6 +22,7 @@ module Lightning
         # We are minimalist, so let the user include the ones they want.
         # Certain ones pollute the session with tokens you may not even be using.
         disable :protection
+        use Rack::Protection::PathTraversal
 
         def self.set_app_file(file)
             set :app_file, file
