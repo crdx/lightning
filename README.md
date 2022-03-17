@@ -1,6 +1,6 @@
 # Lightning Web Framework
 
-A web framework written in Ruby.
+**lightning** is a web framework written in Ruby.
 
 ## Installation
 
