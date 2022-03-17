@@ -150,3 +150,10 @@ A content security policy can be enabled and configured using `enable_csp`.
 
 By default with `erb` templates all output is automatically escaped.
 
+## Contributions
+
+Open an [issue](https://github.com/crdx/lightning/issues) or send a [pull request](https://github.com/crdx/lightning/pulls).
+
+## Licence
+
+[MIT](LICENCE.md).
