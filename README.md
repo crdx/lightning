@@ -156,4 +156,4 @@ Open an [issue](https://github.com/crdx/lightning/issues) or send a [pull reques
 
 ## Licence
 
-[MIT](LICENCE.md).
+[GPLv3](LICENCE).

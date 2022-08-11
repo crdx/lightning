@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
     spec.name     = 'lightning-framework'
     spec.version  = Lightning::VERSION
     spec.author   = 'crdx'
-    spec.license  = 'MIT'
+    spec.license  = 'GPLv3'
 
     spec.files = Dir['{lib}/**/*']
 
