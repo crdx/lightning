@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
     spec.files = Dir['{lib}/**/*']
 
-    spec.add_runtime_dependency "sinatra",         "~> 2.0"
+    spec.add_runtime_dependency "sinatra",         ">= 2", "< 4"
     spec.add_runtime_dependency "sinatra-contrib", "~> 2.0"
     spec.add_runtime_dependency "erubis",          "~> 2.7"
     spec.add_runtime_dependency "activerecord",    "~> 7.0"
