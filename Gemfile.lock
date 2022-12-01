@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lightning-framework (1.3.1)
+    lightning-framework (1.4.0)
       activerecord (~> 7.0)
       colorize (~> 0.8.1)
       dotenv (~> 2.7)
