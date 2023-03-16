@@ -7,7 +7,7 @@ PATH
       dotenv (~> 2.7)
       erubis (~> 2.7)
       mysql2 (~> 0.5.2)
-      rack (~> 2.0)
+      rack (>= 2, < 4)
       rack-protection (~> 3.0)
       rack-test (~> 2.0)
       rake (~> 13.0)
@@ -40,7 +40,7 @@ GEM
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     mysql2 (0.5.4)
-    rack (2.2.4)
+    rack (2.2.6.4)
     rack-protection (3.0.4)
       rack
     rack-test (2.0.2)
