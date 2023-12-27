@@ -22,6 +22,6 @@ Gem::Specification.new do |spec|
     spec.add_runtime_dependency "rake",            "~> 13.0"
     spec.add_runtime_dependency "rspec",           "~> 3.8"
 
-    spec.add_runtime_dependency "colorize",        "~> 0.8.1"
+    spec.add_runtime_dependency "colorize",        "~> 1.0"
     spec.add_runtime_dependency "dotenv",          "~> 2.7"
 end
