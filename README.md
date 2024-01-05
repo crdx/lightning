@@ -2,12 +2,6 @@
 
 **lightning** is a web framework written in Ruby.
 
-## Installation
-
-```
-gem install lightning-framework
-```
-
 ## Dependencies
 
 | Component  | Provided by       |
